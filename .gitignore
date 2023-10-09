@@ -1,0 +1,7 @@
+nvim
+nvim/*
+configstore/*
+fish/*
+glab-cli/*
+iterm2/*
+moneta-ops/*
