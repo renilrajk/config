@@ -1,0 +1,53 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+   "theme": "Dracula",
+   "telemetry": {
+      "diagnostics": false,
+      "metrics": false
+   },
+   "buffer_font_family": "JetBrainsMono Nerd Font",
+   "buffer_font_size": 15,
+   "ui_font_family": "JetBrainsMono Nerd Font",
+   "ui_font_size": 15,
+   "language_overrides": {
+      "TypeScript": {
+         "code_actions_on_format": {
+            "source.organizeImports": true,
+            "source.fixAll.eslint": true
+         }
+      },
+      "JSON": {
+         "tab_size": 3
+      },
+      "CSS": {
+         "tab_size": 3
+      },
+      "Make": {
+         "hard_tabs": true,
+         "tab_size": 4
+      }
+   },
+   "lsp": {
+      "gopls": {
+         "initialization_options": {
+            "hints": {
+               "assignVariableTypes": true,
+               "compositeLiteralFields": true,
+               "compositeLiteralTypes": true,
+               "constantValues": true,
+               "functionTypeParameters": true,
+               "parameterNames": true,
+               "rangeVariableTypes": true
+            }
+         }
+      }
+   },
+   "preferred_line_length": 150
+}

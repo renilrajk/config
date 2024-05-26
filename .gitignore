@@ -1,7 +1,10 @@
-nvim
-nvim/*
 configstore/*
 fish/*
 glab-cli/*
 iterm2/*
 moneta-ops/*
+alacritty/themes
+.DS_Store
+zed/conversations/*
+zed/embeddings/*
+zed/.*
